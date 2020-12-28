@@ -7,8 +7,10 @@
 {
 
     /*-- home --*/
+
     .navbar-default {
         padding-top: 10px;
+        width: 100vw;
     }
 
     .nav_scroll {
@@ -39,6 +41,15 @@
     .nav_scroll .navbar-collapse, 
     .nav_scroll .navbar-form {
         background-color: #fff;
+    }
+
+    h1.cd-headline > span > b {
+        font-size: 33.9px;
+        display: inline-block;
+        position: absolute;
+        white-space: nowrap;
+        left: 0;
+        top: 0;
     }
 
     .home nav.navbar ul.nav > li {
